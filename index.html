@@ -6,16 +6,20 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Hayden Mueller</title>
     <meta name="description" content="Home Page Assignment">
     <meta name="author" content="Hayden Mueller">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div id="Title">
             <h1>WDD 131: Dynamic Web Fundamentals - Hayden Mueller</h1>
         </div>
-        <nav>
+        <nav id="links">
             <a href="https://www.linkedin.com/in/hayden-mueller-300348291/">Linked In</a>
             <a href="https://byui.instructure.com/.">ILearn</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/22?lang=eng">Scripture</a>
@@ -23,24 +27,23 @@
         </nav>
     </header>
     <main>
+        
         <section class="card">
-            <div class="top">
                 <h1>About me</h1>
-            </div>
-            <div class="middle">
                 <p>My name is Hayden Mueller, I was born and raised in South Florida. Ive always loved coding and
                    trying to learn more about computers. I am majoring in Software Engineering and minoring in Business.
                    My hobbies are going the gym, playing videogames, and flying drones.
                 </p>
-                <img src="images/hayden-mueller.jpg" alt="Me infront of the temple">
+                <img class="hayden-img" src="images/hayden-mueller.jpg" alt="Me infront of the temple">
             </div>
-            <div class="bottom">
-                <div class="bottomleft">
-                    <img src="images/florida-flag.jpg" alt="Florida Flag">
-
-                </div>
-                <div class="bottomright">
-
+            <div class="bottom-card">
+                <p>Sunrise, Florida</p>
+                <hr>
+                    <img class="florida-img" src="images/florida-flag.jpg" alt="Florida Flag">
+                    <p>Official Flag of Florida</p>
+                    <p>Sunrise Florida is known for it being home to the Florida Panthers who play for the National Hockey
+                        Leauge. It is also known for having the 11th biggest mall in the United States with all kinds of stores.
+                        It is a beautiful city and has much to offer for tourists.
                 </div>
             </div>
         </section>
@@ -57,7 +60,8 @@
         </section>
     </main>
     <footer>
-    
+            <span id="currentyear"></span><span> Hayden Mueller</span><span> Florida</span>
+            <span id="lastModified"></span>
     </footer>
 </body>
 </html>

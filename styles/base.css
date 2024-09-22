@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(48, 48, 48);
+    color:white;
+    text-decoration:none;
+    margin:auto;
+    max-width:1920px;
+    font-family: "Cinzel", serif;
+    font-weight:400;
+}
+#Title h1{
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    width:100%;
+    margin:auto;
+    padding-top: 1%;
+    padding-bottom:1%;
+    font-family: "DM Serif Text", serif;
+    font-weight:400;
+}
+#links{    
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+}
+a {
+    text-decoration:none;
+    padding: 10px;
+    width:30%;
+    background-color: #424242;
+    color:white;
+    font-size:1.5em;
+}
+a:hover{
+    background-color:#484848;
+    color:white
+}
+
+/* Images */
+.hayden-img{
+    width:200px;
+    float:right;
+    margin-left:10px;
+}
+.florida-img{
+    width:200px;
+}
