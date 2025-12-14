@@ -12,10 +12,19 @@ function displayRecipes(recipeList) {
     const card = document.createElement("div");
     card.classList.add("recipe-card");
 
+    const stepsList = recipe.steps
+      .map(step => `<li>${step}</li>`)
+      .join("");
+
     card.innerHTML = `
-      <img src="${recipe.image}" alt="${recipe.name}">
+      <img
+        src="${recipe.image}"
+        alt="${recipe.name}"
+        width="300"
+        height="200"
+      >
       <h3>${recipe.name}</h3>
-      <p>${recipe.steps}</p>
+      <ol>${stepsList}</ol>
     `;
 
     recipeContainer.appendChild(card);
