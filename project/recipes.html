@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hayden’s Recipes | Recipes</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Recipes</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="recipes.html">Recipes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input type="text" id="searchInput" placeholder="Search recipes...">
+
+      <select id="typeFilter">
+        <option value="all">All</option>
+        <option value="cookies">Cookies</option>
+        <option value="bread">Bread</option>
+        <option value="dessert">Dessert</option>
+      </select>
+    </section>
+
+    <section id="recipeContainer"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hayden Mueller</p>
+  </footer>
+</body>
+</html>
